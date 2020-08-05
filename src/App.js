@@ -1,11 +1,22 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Container from "./components/Container";
+import Header from "./components/Header"
+import MainContent from './components/MainContent';
+import ApiBtnDiv from "./components/ApiBtnDiv";
+import TeamFooter from './components/TeamFooter';
 
-function App() {
+function App() { 
   return (
     <div className="App">
-      <header className="App-header">
+      <Container>
+        <Header></Header>
+        <MainContent isRecruiting={false} />
+        <ApiBtnDiv />
+        <TeamFooter />
+      </Container>
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -18,7 +29,7 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
     </div>
   );
 }
