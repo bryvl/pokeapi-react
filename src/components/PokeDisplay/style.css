@@ -17,15 +17,22 @@
     justify-content: center;
     padding: 10px 0 10px 0;
 }
-.pokeSprite {
+.pokeInfoCard {
     background: whitesmoke;
     border: 1px lightgray solid;
+    border-radius: 5%;
+}
+
+/* .pokeSprite {
+    
 }
 .pokeStats {
     background: whitesmoke;
     border: 1px lightgray solid;
+    border-radius: 5%;
 }
 .pokeDescription {
     background: whitesmoke;
     border: 1px lightgray solid;
-}
+    border-radius: 5%;
+} */

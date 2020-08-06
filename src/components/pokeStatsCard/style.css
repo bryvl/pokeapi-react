@@ -1,0 +1,7 @@
+.pokeStats {
+    padding: 25px;
+}
+.pokeStats p {
+    text-align: left;
+    font-size: 1.5rem;
+}
