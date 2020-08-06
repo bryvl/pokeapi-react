@@ -1,0 +1,31 @@
+.pokeCard {
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-rows: 15% 85%;
+}
+.pokeName {
+    color: tomato;
+    font-size: 2.5rem;
+    border-bottom: 2px tomato dotted;
+    margin-bottom: 0px;
+}
+.pokeInfo {
+    background-color: #ccc;
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    column-gap: 1%;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+.pokeSprite {
+    background: whitesmoke;
+    border: 1px lightgray solid;
+}
+.pokeStats {
+    background: whitesmoke;
+    border: 1px lightgray solid;
+}
+.pokeDescription {
+    background: whitesmoke;
+    border: 1px lightgray solid;
+}

@@ -13,9 +13,8 @@ function App() {
     <div className="App">
       <Container>
         <Header></Header>
-        <MainContent isRecruiting={false} />
-        <ApiBtnDiv />
-        <TeamFooter team={team}/>
+        <MainContent isRecruiting={true} />
+        <TeamFooter team={team} />
       </Container>
     </div>
   );
