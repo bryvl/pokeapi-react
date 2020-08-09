@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 import PokeStatsCard from "../pokeStatsCard";
+import PokeDescriptionCard from "../PokeDescriptionCard";
 
 function PokeDisplay(props){
     let currentPokemon = props.pokemon;
@@ -18,7 +19,8 @@ function PokeDisplay(props){
                     speed={currentPokemon.stats.speed}
                 />
                 <div className="pokeSprite pokeInfoCard"><img src={currentPokemon.sprite} width="300px" height="300px" alt="sprite for Terrakion, a rocky four legged pokemon"/></div>
-                <div className="pokeDescription pokeInfoCard"></div>
+                <PokeDescriptionCard pokeDescription={currentPokemon} />
+                {/* <div className="pokeDescription pokeInfoCard" ></div> */}
             </div>
         </div>
     )
