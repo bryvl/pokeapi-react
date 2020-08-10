@@ -12,7 +12,36 @@ function TeamFooter(props){
     //          display "empty" and gray ball  
     //      }
     // }
-    return <footer>This is the footer for now</footer>;
+    return (
+        <div>
+            <footer>
+                <div className="pokemonSlot">
+                    <header>Empty</header>
+                    <div>Ball</div>
+                </div>
+                <div className="pokemonSlot">
+                    <header>Empty</header>
+                    <div>Ball</div>
+                </div>
+                <div className="pokemonSlot">
+                    <header>Empty</header>
+                    <div>Ball</div>
+                </div>
+                <div className="pokemonSlot">
+                    <header>Empty</header>
+                    <div>Ball</div>
+                </div>
+                <div className="pokemonSlot">
+                    <header>Empty</header>
+                    <div>Ball</div>
+                </div>
+                <div className="pokemonSlot">
+                    <header>Empty</header>
+                    <div>Ball</div>
+                </div>
+            </footer>
+        </div>
+    )
 }
 
 export default TeamFooter;

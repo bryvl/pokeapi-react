@@ -4,9 +4,9 @@
     grid-template-rows: 15% 85%;
 }
 .pokeName {
-    color: tomato;
+    color: crimson;
     font-size: 2.5rem;
-    border-bottom: 2px tomato dotted;
+    border-bottom: 3px turquoise dotted;
     margin-bottom: 0px;
 }
 .pokeInfo {
@@ -19,13 +19,11 @@
 }
 .pokeInfoCard {
     background: whitesmoke;
-    border: 1px lightgray solid;
+    border: 2px lightgray solid;
     border-radius: 5%;
+    overflow: hidden;
 }
-
-/* .pokeSprite {
-    
-}
+/* 
 .pokeStats {
     background: whitesmoke;
     border: 1px lightgray solid;

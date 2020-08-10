@@ -1,4 +1,21 @@
 footer {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    height: 100%;
     background-color: #333;
     color: white;
+}
+.pokemonSlot {
+    display: grid;
+    grid-template-rows: 30% 70%;
+    border-right: 1px crimson solid;
+}
+
+.pokemonSlot:nth-child(6) {
+    border-right: none;
+}
+
+.pokemonSlot header  {
+    background-color: #333;
+    border-bottom: 1px turquoise solid;
 }

@@ -1,7 +1,8 @@
 import React from "react";
 import "./style.css";
-import PokeStatsCard from "../pokeStatsCard";
+import PokeStatsCard from "../PokeStatsCard";
 import PokeDescriptionCard from "../PokeDescriptionCard";
+import PokeSpriteCard from "../PokeSpriteCard";
 
 function PokeDisplay(props){
     let currentPokemon = props.pokemon;
@@ -18,9 +19,8 @@ function PokeDisplay(props){
                     specialDef={currentPokemon.stats.specialDef}
                     speed={currentPokemon.stats.speed}
                 />
-                <div className="pokeSprite pokeInfoCard"><img src={currentPokemon.sprite} width="300px" height="300px" alt="sprite for Terrakion, a rocky four legged pokemon"/></div>
+                <PokeSpriteCard pokeSprite={currentPokemon.sprite}/>
                 <PokeDescriptionCard pokeDescription={currentPokemon} />
-                {/* <div className="pokeDescription pokeInfoCard" ></div> */}
             </div>
         </div>
     )

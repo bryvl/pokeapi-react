@@ -4,13 +4,16 @@ import "./style.css";
 function PokeStatsCard(props){
     let currentPokemonStats = props;
     return (
-        <div className="pokeStats pokeInfoCard">
-            <p>Hp: {currentPokemonStats.hp}</p>
-            <p>Atk: {currentPokemonStats.attack}</p>
-            <p>Def: {currentPokemonStats.defense}</p>
-            <p>Special Atk: {currentPokemonStats.specialAtk}</p>
-            <p>Special Def: {currentPokemonStats.specialDef}</p>
-            <p>Speed: {currentPokemonStats.speed}</p>
+        <div className="pokeInfoCard">
+            <table className="pokeStats">
+                <h1 className="statsHeader">Stats</h1>
+                <tr>Hp: {currentPokemonStats.hp}</tr>
+                <tr>Atk: {currentPokemonStats.attack}</tr>
+                <tr>Def: {currentPokemonStats.defense}</tr>
+                <tr>Special Atk: {currentPokemonStats.specialAtk}</tr>
+                <tr>Special Def: {currentPokemonStats.specialDef}</tr>
+                <tr>Speed: {currentPokemonStats.speed}</tr>
+            </table>
         </div>
     )
 }

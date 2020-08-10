@@ -2,7 +2,7 @@
     background-color: gray;
 }
 #pokeGet {
-    background-color: #ff3814;
+    background-color: turquoise;
     color: whitesmoke;
     height: 100%;
     width: 100%;
@@ -10,7 +10,7 @@
 }
 
 #pokeGet:hover  {
-    background-color: #fa2600;
+    background-color: darkturquoise;
 }
 #pokeGet img:hover  {
     animation: shake 0.5s;

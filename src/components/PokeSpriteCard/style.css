@@ -1,0 +1,4 @@
+.pokeSprite {
+    display: grid;
+    grid-template-rows: 70% 30%;
+}
