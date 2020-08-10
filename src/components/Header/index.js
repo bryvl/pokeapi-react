@@ -2,11 +2,11 @@ import React from "react";
 import "./style.css";
 import ApiBtnDiv from "../ApiBtnDiv";
 
-function Header(){
+function Header(props){
     return (
         <header className="banner">
             <h1>Pokémate <span>&lt;3</span></h1>
-            <ApiBtnDiv />
+            {props.children}
         </header>
     )
 }

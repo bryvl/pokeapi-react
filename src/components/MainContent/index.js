@@ -21,11 +21,16 @@ function MainContent(props){
         description: "This is an example description for the default Pokemon object. Just filler content here!"
     }
 
-    if (isRecruiting) {
-        return <PokeDisplay pokemon={apiPokemon}/>;
-    } else {
-        return <Greeting />;
-    }
+    return (
+        <div>
+            {props.children}
+        </div>
+    );
+    // if (isRecruiting === true) {
+    //     return <PokeDisplay pokemon={apiPokemon}/>;
+    // } else {
+    //     return <Greeting />;
+    // }
 }
 
 export default MainContent;
