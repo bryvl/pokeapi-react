@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <Container>
         <Header></Header>
-        <MainContent isRecruiting={true} />
+        <MainContent isRecruiting={false} />
         <TeamFooter team={team} />
       </Container>
     </div>

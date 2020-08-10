@@ -21,7 +21,6 @@ table {
     background-color: rgba(220, 20, 60, 0.596);
     color: white;
 }
-/* .pokeStats tr:nth-child(even) {
-    background-color: paleturquoise;
-    color: white;
-} */
+.pokeStats tr:nth-child(even) {
+    color: #333;
+}

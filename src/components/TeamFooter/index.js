@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import PokeBall from "../PokeBall";
 
 function TeamFooter(props){
     let team = props.team;
@@ -16,28 +17,28 @@ function TeamFooter(props){
         <div>
             <footer>
                 <div className="pokemonSlot">
-                    <header>Empty</header>
-                    <div>Ball</div>
+                    <header className="slotHeader">Empty</header>
+                    <PokeBall className="slotBall" />
                 </div>
                 <div className="pokemonSlot">
-                    <header>Empty</header>
-                    <div>Ball</div>
+                    <header className="slotHeader">Empty</header>
+                    <PokeBall className="slotBall" />
                 </div>
                 <div className="pokemonSlot">
-                    <header>Empty</header>
-                    <div>Ball</div>
+                    <header className="slotHeader">Empty</header>
+                    <PokeBall className="slotBall" />
                 </div>
                 <div className="pokemonSlot">
-                    <header>Empty</header>
-                    <div>Ball</div>
+                    <header className="slotHeader">Empty</header>
+                    <PokeBall className="slotBall" />
                 </div>
                 <div className="pokemonSlot">
-                    <header>Empty</header>
-                    <div>Ball</div>
+                    <header className="slotHeader">Empty</header>
+                    <PokeBall className="slotBall" />
                 </div>
                 <div className="pokemonSlot">
-                    <header>Empty</header>
-                    <div>Ball</div>
+                    <header className="slotHeader">Empty</header>
+                    <PokeBall className="slotBall" />
                 </div>
             </footer>
         </div>

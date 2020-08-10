@@ -1,4 +1,4 @@
-header {
+.banner {
     background-color: crimson;
     color: white;
     text-align: center;
@@ -9,6 +9,6 @@ header {
     justify-content: center;
 }
 
-header h1 {
+.banner h1 {
     font-size: 4rem;
 }

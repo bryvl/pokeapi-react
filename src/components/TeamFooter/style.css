@@ -15,7 +15,24 @@ footer {
     border-right: none;
 }
 
-.pokemonSlot header  {
+.pokemonSlot .slotHeader  {
+    padding-top: 10px;
     background-color: #333;
     border-bottom: 1px turquoise solid;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.pokemonSlot .slotBall {
+    padding: 20px;
+    align-self: center;
+}
+
+.slotBall .pokeballThruLine {
+    background-color: #333;
+}
+
+.slotBall .pokeballBtnEmpty {
+    background-color: #333;
 }

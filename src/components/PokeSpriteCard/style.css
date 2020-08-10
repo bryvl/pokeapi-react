@@ -1,4 +1,11 @@
 .pokeSprite {
     display: grid;
     grid-template-rows: 70% 30%;
+    justify-self: center;
+    align-self: center;
 }
+/* Really awesome animation idea for sprite during capture (on button click):
+- fade opacity to 0
+- shrink to a few pixels
+-translate toward pokeball button
+*/
