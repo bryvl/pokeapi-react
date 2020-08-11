@@ -3,7 +3,7 @@ import "./style.css";
 import PokeBall from "../PokeBall";
 
 function TeamFooter(props){
-    let team = props.team;
+    // let team = props.team;
     // team should maybe be an array that is always of length 6 with value of "empty" for unfilled slots
     // i.e: 1- Squirtle, 2- Umbreon, 3- Pidgeotto, 4- empty, 5- empty, 6- empty
     // for (i = 0; i < team.length; i++;) {

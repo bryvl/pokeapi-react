@@ -1,6 +1,5 @@
 import React from "react";
 import "./style.css";
-import ApiBtnDiv from "../ApiBtnDiv";
 
 function Header(props){
     return (
